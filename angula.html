@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Firebase App</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script language="javascript" src="angularjs/angular.min.js"></script>
+    <script language="javascript" src="angularjs/app.js"></script>
+</head>
+<body>
+    <div ng-app="myApp">
+        <div ng-controller = "abc">
+            <input type="text" ng-model="message"/>
+            {{message}}
+        </div>
+        <div ng-controller = "def">
+            {{message}}
+        </div>
+    </div>
+
+</body>
+
+</html>
